@@ -2,6 +2,8 @@
 using namespace std;
 
 int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
     int n,m,k;
     cin>>n>>m>>k; // 寶盒數/總鑰匙數/開啟寶盒的鑰匙數
     int t;
